@@ -131,7 +131,7 @@ namespace Arreglos.Logica
             }
             for (int i = posicion; i < _tope-1; i++)
             {
-                _arreglo[1] = _arreglo[i + 1];
+                _arreglo[i] = _arreglo[i + 1];
             }
             _tope--;
         }

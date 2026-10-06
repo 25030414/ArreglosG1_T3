@@ -31,7 +31,6 @@ catch (Exception ex)
 }
 
 
-Console.WriteLine(oMiArreglo);
 
 
 //oMiArreglo.Llenar(1, 20);
