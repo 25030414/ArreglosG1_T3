@@ -159,6 +159,18 @@ namespace Arreglos.Logica
             return arregloPares;
         }
 
+
+        //Metodo EsPar
+
+        private bool Espar(int n)
+        {
+            if (n % 2 == 0)
+            {
+                return true;
+            }
+            return false;
+        }
+
         //Metodo ObtenerPrimos
         public MiArreglo ObtenerPrimos()
         {
@@ -196,7 +208,7 @@ namespace Arreglos.Logica
         //Metodo EsPrimo
         private bool EsPrimo(int n)
         {
-            for (int i = 2; i < n; i++)
+            for (int i = 2; i < Math.Sqrt (n); i++)
             {
 
                 if (n % i == 0)
